@@ -1,0 +1,14 @@
+{ 
+  "name": "Toastpd", 
+  "version": "1", 
+  "manifest_version": 2,
+  "description": "Toast your buds", 
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "name": "Toastpd", 
+    "default_icon": "icon.png" 
+  }, 
+  "permissions": [ "activeTab" ]
+} 
